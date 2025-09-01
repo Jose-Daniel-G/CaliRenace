@@ -17,7 +17,9 @@ MonoBehaviour:
   _answers:
   - _info: "Se convirti\xF3 en un barrio residencial exclusivo."
     _isCorrect: 0
-  - _info: Fue descubierto por artistas, intelectuales y turistas.
+  - _info: Fue descubierto por artistas. intelectuales  intelectuales y turistas.
+      intelectuales y turistas. artistas,intelectuales y turistas. intelectuales
+      y turistas.
     _isCorrect: 1
   - _info: "Se transform\xF3 en un \xE1rea industrial."
     _isCorrect: 0

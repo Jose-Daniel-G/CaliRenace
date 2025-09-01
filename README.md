@@ -16,3 +16,7 @@
 - **Civic Awareness**: Learn about the challenges faced by the city and its people.
   
 Join us in *Cali's City Reborn*—an adventure that not only entertains but also educates, fostering a deeper connection to the heart of Santiago de Cali.
+
+[You can watch a video about the project at the following link]
+(https://youtu.be/4H56009-YDI?si=37n9cZb88LToec07)
+![Imagen del juego](images/scenes_Cali_Renace.png)

@@ -21,6 +21,10 @@ public class BatFollowingBehaviour : StateMachineBehaviour
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+      if (player == null)
+        {
+            return; // Stop execution if player is missing
+        }
        animator.transform.position = Vector2.MoveTowards(animator.transform.position, player.position,speedMovement * Time.deltaTime);
        batFollow.Turn(player.position);
        followTime -= Time.deltaTime;

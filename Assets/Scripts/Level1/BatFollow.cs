@@ -10,21 +10,31 @@ public class BatFollow : MonoBehaviour
     private Animator animator;
     private SpriteRenderer spriteRenderer;
 
-    private void Start(){
+    private void Start()
+    {
         animator = GetComponent<Animator>();
         initialPoint = transform.position;
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    public void Update(){
+    public void Update()
+    {
+        if (player == null)
+        {
+            return; // Stop execution if player is missing
+        }
         distance = Vector2.Distance(transform.position, player.position);
         animator.SetFloat("Distance", distance);
     }
 
-    public void Turn(Vector3 objective){
-        if(transform.position.x < objective.x){
+    public void Turn(Vector3 objective)
+    {
+        if (transform.position.x < objective.x)
+        {
             spriteRenderer.flipX = true;
-        }else{
+        }
+        else
+        {
             spriteRenderer.flipX = false;
         }
     }

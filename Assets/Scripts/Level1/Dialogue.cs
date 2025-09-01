@@ -14,8 +14,8 @@ public class Dialogue : MonoBehaviour{
     private int lineIndex;
 
     void Update() {
-        // if(isPlayerInRange && Input.GetButtonDown("Submit")){
-        if(isPlayerInRange && Input.GetKeyDown(KeyCode.G)){
+        if(isPlayerInRange && Input.GetButtonDown("Submit")){
+        // if(isPlayerInRange && Input.GetKeyDown(KeyCode.G)){
 
             if(!didDialogueStart){
                 StartDialogue();
@@ -33,7 +33,7 @@ public class Dialogue : MonoBehaviour{
         dialoguePanel.SetActive(true);
         dialogueMark.SetActive(false);
         lineIndex = 0;
-        Time.timeScale = 0f;
+        // Time.timeScale = 0f;
         StartCoroutine(ShowLine());
     }
 

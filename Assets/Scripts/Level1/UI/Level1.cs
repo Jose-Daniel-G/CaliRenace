@@ -86,6 +86,7 @@ public class Level1 : MonoBehaviour
         Time.timeScale = 1f;
         // Introduce un delay de 2 segundos
         Thread.Sleep(1000);
+        ResetPlayerData();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
@@ -153,5 +154,12 @@ public class Level1 : MonoBehaviour
     {
         Debug.Log("Closing the game");
         Application.Quit();
+    }
+
+    public void ResetPlayerData()
+    {
+        PlayerPrefs.DeleteKey("LastExitDoor");  // Remove last used door
+        PlayerPrefs.DeleteKey("HasBeenInScene1"); // Reset scene visit status
+        PlayerPrefs.Save();
     }
 }

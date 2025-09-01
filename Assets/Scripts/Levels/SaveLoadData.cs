@@ -12,6 +12,8 @@ namespace LevelUnlock
     {
         private static SaveLoadData instance;
         private string baseURL = "http://localhost/www/UnityLoginLogoutRegister/save_load_data.php";
+        // private string baseURL = "http://localhost/www/GameBuiltedWeb/UnityLoginLogoutRegister/save_load_data.php";
+        // private string baseURL = "http://GameBuiltedWeb/UnityLoginLogoutRegister/save_load_data.php";
 
         public static SaveLoadData Instance { get => instance; }
 

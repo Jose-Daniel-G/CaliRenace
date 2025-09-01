@@ -208,6 +208,7 @@ public class MateoPlayer : MonoBehaviour
 
         if (actualLife <= 0)
         {
+            // ResetPlayerData();
             deathPlayer?.Invoke(this, EventArgs.Empty);
             Destroy(gameObject);
         }
@@ -228,5 +229,12 @@ public class MateoPlayer : MonoBehaviour
         }
         changeLife.Invoke(actualLife);
     }
+
+    // public void ResetPlayerData()
+    // {
+    //     PlayerPrefs.DeleteKey("LastExitDoor");  // Remove last used door
+    //     PlayerPrefs.DeleteKey("HasBeenInScene1"); // Reset scene visit status
+    //     PlayerPrefs.Save();
+    // }
 
 }
