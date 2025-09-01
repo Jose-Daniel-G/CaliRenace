@@ -17,6 +17,14 @@
   
 Join us in *Cali's City Reborn*—an adventure that not only entertains but also educates, fostering a deeper connection to the heart of Santiago de Cali.
 
+### Team Members:
+- José Daniel Grijalba Osorio
+- Juan David Grijalba Osorio
+- Juan Pablo Muñoz Cárdenas
+
+### Made with Unity:
+1. Editor version `2022.3.47f1`.
+
 [You can watch a video about the project at the following link]
 (https://youtu.be/4H56009-YDI?si=37n9cZb88LToec07)
 ![Imagen del juego](images/scenes_Cali_Renace.png)
