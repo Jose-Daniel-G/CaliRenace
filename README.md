@@ -20,7 +20,6 @@ Join us in *Cali's City Reborn*—an adventure that not only entertains but also
 ### Team Members:
 - José Daniel Grijalba Osorio
 - Juan David Grijalba Osorio
-- Juan Pablo Muñoz Cárdenas
 
 ### Made with Unity:
 1. Editor version `2022.3.47f1`.
